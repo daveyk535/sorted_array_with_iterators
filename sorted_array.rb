@@ -172,8 +172,8 @@ class SortedArray
      return x
     end
   end
-      return nil
-    end
+  return nil
+  end
   
   def inject acc=nil, &block
     acc||=0
